@@ -3,7 +3,9 @@
         <div class="container">
             <top/>
             <navbar/>
-            <nuxt/>
+            <div class="content">
+                <nuxt/>
+            </div>
         </div>
     </div>
 </template>
@@ -48,7 +50,8 @@
     .page {
         display: flex;
         justify-content: center;
-        //background-color: grey;
+        background-color: grey;
+        min-height: 100vh;
     }
 
     .container {
@@ -56,8 +59,23 @@
         padding: 0 15px;
         display: flex;
         flex-direction: column;
-        //background-color: orange;
+        background-color: orange;
+    }
+
+    .content {
+        background-color: chocolate;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+        @media (min-width: 768px) {
+            width: 720px;
+        }
         @media (min-width: 991px) {
+            width: 617px;
+        }
+        @media (min-width: 1200px) {
+            width: 663px;
         }
     }
 </style>

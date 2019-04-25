@@ -26,7 +26,7 @@
             width: 1010px;
         }
         .menu {
-            //background-color: blueviolet;
+            background-color: blueviolet;
             border-top: solid 1px #ebebeb;
             border-bottom: solid 1px #ebebeb;
             padding: 13px 0; // Je peux monter à 17px, pour que ce soit à 53px total
