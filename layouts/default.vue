@@ -1,55 +1,62 @@
 <template>
-  <div>
-    <nuxt />
-  </div>
+    <div class="page">
+        <div class="container">
+            <top/>
+            <navbar/>
+            <nuxt/>
+        </div>
+    </div>
 </template>
 
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+<script>
+    import Top from '~/components/Top'
+    import Navbar from '~/components/Navbar'
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+    export default {
+        components: {
+            Top,
+            Navbar
+        }
+    }
+</script>
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+<style lang="scss">
+    html {
+        font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 16px;
+        word-spacing: 1px;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+    }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+        margin: 0;
+    }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
+    body {
+        margin: 0;
+    }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+    .page {
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+    }
+
+    .container {
+        width: 1040px;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        background-color: orange;
+        @media (min-width: 991px) {
+        }
+    }
 </style>
