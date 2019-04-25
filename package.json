@@ -1,0 +1,25 @@
+{
+  "name": "lespritcurieux",
+  "version": "1.0.0",
+  "description": "Site consacrée au colloque l&#39;esprit curieux",
+  "author": "thomas.sypniewski@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4",
+    "sass-loader": "^7.1.0"
+  }
+}
