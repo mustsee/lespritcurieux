@@ -14,6 +14,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: aquamarine;
+  //background-color: aquamarine;
 }
 </style>

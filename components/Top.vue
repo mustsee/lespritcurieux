@@ -20,10 +20,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        cursor: pointer; // onClick, go to main page
     }
     .title {
         padding-bottom: 20px;
+        cursor: pointer; // onClick, go to main page
         h1 {
             font-family: 'Lato', sans-serif;
             font-weight: 300;

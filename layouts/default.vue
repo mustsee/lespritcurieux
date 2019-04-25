@@ -42,12 +42,13 @@
 
     body {
         margin: 0;
+        line-height: 1.625;
     }
 
     .page {
         display: flex;
         justify-content: center;
-        background-color: grey;
+        //background-color: grey;
     }
 
     .container {
@@ -55,7 +56,7 @@
         padding: 0 15px;
         display: flex;
         flex-direction: column;
-        background-color: orange;
+        //background-color: orange;
         @media (min-width: 991px) {
         }
     }
