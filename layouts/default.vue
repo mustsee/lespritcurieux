@@ -5,7 +5,9 @@
             <navbar/>
             <div class="content">
                 <nuxt/>
+                <div class="contentEnd"></div>
             </div>
+            <bottom/>
         </div>
     </div>
 </template>
@@ -13,11 +15,13 @@
 <script>
     import Top from '~/components/Top'
     import Navbar from '~/components/Navbar'
+    import Bottom from '~/components/Bottom'
 
     export default {
         components: {
             Top,
-            Navbar
+            Navbar,
+            Bottom,
         }
     }
 </script>
@@ -77,6 +81,12 @@
         }
         @media (min-width: 1200px) {
             width: 663px;
+        }
+        .contentEnd {
+            height: 1px;
+            background-color: #ebebeb;
+            //background-color: red;
+            margin-top: 30px;
         }
     }
 </style>
