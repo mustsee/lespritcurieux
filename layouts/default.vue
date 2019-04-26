@@ -23,9 +23,10 @@
 </script>
 
 <style lang="scss">
+    @import url('https://fonts.googleapis.com/css?family=Merriweather');
+
     html {
-        font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-        Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-family: 'Merriweather', serif;
         font-size: 16px;
         word-spacing: 1px;
         -ms-text-size-adjust: 100%;
@@ -50,7 +51,7 @@
     .page {
         display: flex;
         justify-content: center;
-        background-color: grey;
+        //background-color: grey;
         min-height: 100vh;
     }
 
@@ -59,11 +60,11 @@
         padding: 0 15px;
         display: flex;
         flex-direction: column;
-        background-color: orange;
+        //background-color: orange;
     }
 
     .content {
-        background-color: chocolate;
+        //background-color: chocolate;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
