@@ -30,6 +30,9 @@
             font-size: 20px;
             text-transform: uppercase;
             text-align: center;
+            .blueTitle:hover {
+                color: dodgerblue;
+            }
         }
     }
     .date {
