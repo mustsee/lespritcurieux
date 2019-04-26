@@ -78,15 +78,20 @@
         }
         @media (min-width: 991px) {
             width: 617px;
+            padding-top: 45px;
         }
         @media (min-width: 1200px) {
             width: 663px;
+            padding-top: 45px;
         }
         .contentEnd {
             height: 1px;
             background-color: #ebebeb;
             //background-color: red;
             margin-top: 30px;
+            @media (min-width: 991px) {
+                margin-top: 45px;
+            }
         }
     }
 </style>

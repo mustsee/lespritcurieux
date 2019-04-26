@@ -12,16 +12,6 @@
         </div>
     </div>
 </template>
-<script>
-    export default {
-        methods: {
-            logoText() {
-                if (window.innerWidth < 576) return 'SHLP/BPP';
-                return ``
-            }
-        }
-    }
-</script>
 <style lang="scss" scoped>
     .footer {
         margin-top: 8px;
@@ -41,13 +31,15 @@
             height: 1px;
             background-color: #ebebeb;
             //background-color: green;
-            margin-bottom: 15px;
         }
         .logo {
-            margin-bottom: 15px;
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 80px;
+            @media (min-width: 991px) {
+                height: 110px;
+            }
             .text {
                 font-family: 'Lato', sans-serif;
                 font-weight: 300;

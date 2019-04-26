@@ -24,8 +24,8 @@
         </p>
         <h2>Publications</h2>
         <p>
-            A l'issu du colloque, nous publierons les actes et nous rendrons disponible les vidéos enregistrées des interventions sur un
-            site dédié.
+            A l'issue du colloque, nous publierons les actes et nous rendrons disponible les vidéos enregistrées des
+            interventions et des débats sur un site dédié.
         </p>
     </section>
 </template>
@@ -41,6 +41,9 @@
             font-family: 'Lato', sans-serif;
             font-weight: 400;
             text-align: center;
+            @media (min-width: 991px) {
+                margin: 0 0 15px;
+            }
         }
         h2 {
             margin: 0 0 10px;
@@ -50,10 +53,13 @@
             font-size: 20px;
         }
         p {
-            padding-top: 5px;
+            padding-top: 10px;
             margin-bottom: 20px;
             color: #333;
             font-weight: 300;
+            @media (min-width: 991px) {
+                margin-bottom: 25px;
+            }
         }
     }
 </style>

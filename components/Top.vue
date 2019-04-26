@@ -20,6 +20,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media (min-width: 991px) {
+            padding: 40px;
+        }
     }
     .title {
         padding-bottom: 20px;
