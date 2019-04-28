@@ -23,7 +23,7 @@
         <p>
             Tél. +33 1 55 42 91 97
         </p>
-        <p>Vous pouvez nous trouver sur Google Maps
+        <p>Vous pouvez nous trouver sur Google Maps en cliquant
             <a target="_blank" rel="noopener noreferrer"
                href="https://www.google.com/maps/place/Soci%C3%A9t%C3%A9+Historique+et+Litt%C3%A9raire+Polonaise/@48.8513413,2.353512,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671fcaeb442cd:0xff530c837c603ccd!8m2!3d48.8513413!4d2.355706">ici</a>
         </p>
