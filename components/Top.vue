@@ -1,10 +1,12 @@
 <template>
     <div class="top">
-        <div class="title">
-            <h1>
-                L'esprit curieux. Collectionner en Europe (de Vasari à nos jours)
-            </h1>
-        </div>
+            <nuxt-link to="/">
+                <div class="title">
+                    <h1>
+                        L'esprit curieux. Collectionner en Europe (de Vasari à nos jours)
+                    </h1>
+                </div>
+            </nuxt-link>
         <div class="date">
             <h2>
                 Paris, 24 et 25 octobre 2019
@@ -49,5 +51,9 @@
             text-align: center;
             word-spacing: 0;
         }
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
     }
 </style>
