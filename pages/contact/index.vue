@@ -11,7 +11,7 @@
         </p>
         <p>
             <span>Agnieszka WIATRZYK</span> <br>
-            Assistante de la responsable des collections artistiques<br>
+            Adjointe à la responsable des collections artistiques<br>
             a.wiatrzyk@bplp.fr
         </p>
         <h2>Pour entrer en contact avec la SHLP/BPP :</h2>
