@@ -32,9 +32,6 @@
 
 <style lang="scss" scoped>
     .home {
-        //margin: 0 auto;
-        //text-align: center;
-        //background-color: aquamarine;
         h1 {
             margin: 0 0 10px;
             line-height: normal;

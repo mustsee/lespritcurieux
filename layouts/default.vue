@@ -55,7 +55,6 @@
     .page {
         display: flex;
         justify-content: center;
-        //background-color: grey;
         min-height: 100vh;
     }
 
@@ -64,11 +63,9 @@
         padding: 0 15px;
         display: flex;
         flex-direction: column;
-        //background-color: orange;
     }
 
     .content {
-        //background-color: chocolate;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -87,7 +84,6 @@
         .contentEnd {
             height: 1px;
             background-color: #ebebeb;
-            //background-color: red;
             margin-top: 30px;
             @media (min-width: 991px) {
                 margin-top: 45px;

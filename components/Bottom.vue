@@ -30,7 +30,6 @@
         .separationLine {
             height: 1px;
             background-color: #ebebeb;
-            //background-color: green;
         }
         .logo {
             display: flex;
