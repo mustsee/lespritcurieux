@@ -42,7 +42,7 @@
             .text {
                 font-family: 'Lato', sans-serif;
                 font-weight: 300;
-                font-size: 10px;
+                font-size: 11px;
                 text-transform: uppercase;
                 margin-left: 15px;
                 @media (min-width: 576px) {
