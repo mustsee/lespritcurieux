@@ -20,7 +20,7 @@
         <p>
             Le colloque sera également une occasion unique de présenter la plus grande collection d'œuvres léguée à la
             Société Historique et Littéraire Polonaise par Camille Gronkowski (1873-1949), conservateur du Petit Palais
-            et président de la Société Historique et Littéraire Polonaise de 1946 à 1949.
+            et président de la SHLP de 1946 à 1949.
         </p>
         <h2>Publications</h2>
         <p>
