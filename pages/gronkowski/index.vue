@@ -19,7 +19,7 @@
             <img src="/camille_gronkowski.png" alt="Portrait de Camille Gronkowski" />
         </div>
         <p>
-            Camille Gronkowski nait à Paris en 1873. Il fait ses études à Paris et devient docteur en droit.
+            Camille Gronkowski est né à Paris en 1873. Il fait y ses études et devient docteur en droit.
             Il entre dans l'administration en 1902 et, huit ans plus tard, est attaché au Palais des Beaux-Arts.
         </p>
         <p>
