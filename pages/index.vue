@@ -29,3 +29,13 @@
         </p>
     </section>
 </template>
+
+<script>
+    export default {
+        head() {
+            return {
+                title: "Colloque - L'esprit curieux - Collectionner en Europe (de Vasari à nos jours) - Paris, 24 et 25 octobre 2019"
+            }
+        }
+    }
+</script>

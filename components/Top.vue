@@ -43,7 +43,7 @@
             font-weight: 700;
             line-height: 1.625;
             font-size: 10px;
-            color: #7e7e7e;
+            color: #595959;
             letter-spacing: 3px;
             text-transform: uppercase;
             text-align: center;

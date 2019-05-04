@@ -43,6 +43,16 @@
     </section>
 </template>
 
+<script>
+    export default {
+        head() {
+            return {
+                title: "Colloque - L'esprit curieux - Collection Gronkowski - Biographie de Camille Gronkowski"
+            }
+        }
+    }
+</script>
+
 <style lang="scss" scoped>
     .portrait {
         text-align: center;

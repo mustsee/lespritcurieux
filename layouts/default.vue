@@ -22,6 +22,13 @@
             Top,
             Navbar,
             Bottom,
+        },
+        head() {
+            return {
+                htmlAttrs: {
+                    lang: 'fr',
+                },
+            }
         }
     }
 </script>

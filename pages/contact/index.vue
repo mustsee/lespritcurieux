@@ -36,6 +36,16 @@
     </section>
 </template>
 
+<script>
+    export default {
+        head() {
+            return {
+                title: "Colloque - L'esprit curieux - contact"
+            }
+        }
+    }
+</script>
+
 <style lang="scss" scoped>
     h2, p {
         text-align: center;
