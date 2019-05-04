@@ -1,5 +1,5 @@
 <template>
-    <section class="contact">
+    <section>
         <h2>
             Pour tout renseignement concernant le colloque :
         </h2>
@@ -12,7 +12,7 @@
         <p>
             <span>Agnieszka WIATRZYK</span> <br>
             Adjointe à la responsable des collections artistiques<br>
-            a.wiatrzyk@bplp.fr
+            awiatrzyk@yahoo.fr
         </p>
         <h2>Pour entrer en contact avec la SHLP/BPP :</h2>
         <p>Société Historique et Littéraire Polonaise / <br>
@@ -26,7 +26,7 @@
         <p>Accéder au site web :
             <a target="_blank" rel="noopener noreferrer"
                href="http://www.bibliotheque-polonaise-paris-shlp.fr/">
-               SHPL/BPP
+                SHPL/BPP
             </a>
         </p>
         <p>Vous pouvez nous trouver sur Google Maps en cliquant
@@ -37,41 +37,11 @@
 </template>
 
 <style lang="scss" scoped>
-    .contact {
-        h1 {
-            margin: 0 0 10px;
-            line-height: normal;
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            @media (min-width: 991px) {
-                margin: 0 0 15px;
-            }
-        }
-        h2 {
-            margin: 0 0 10px;
-            text-align: center;
-            line-height: normal;
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            font-size: 20px;
-        }
-        p {
-            padding-top: 10px;
-            margin-bottom: 20px;
-            text-align: center;
-            color: #333;
-            font-weight: 300;
-            @media (min-width: 991px) {
-                margin-bottom: 25px;
-            }
-            span {
-                font-size: 18px;
-            }
-        }
-        .siteAuthor {
-            text-align: center;
-            font-size: 14px;
-            font-family: 'Lato Light', 'sans-serif';
-        }
+    h2, p {
+        text-align: center;
+    }
+
+    p span {
+        font-size: 18px;
     }
 </style>

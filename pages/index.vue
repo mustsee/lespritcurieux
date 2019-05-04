@@ -1,5 +1,5 @@
 <template>
-    <section class="home">
+    <section>
         <h1>Présentation du colloque</h1>
         <p>
             La Société Historique et Littéraire Polonaise (SHLP) et la Bibliothèque Polonaise de Paris (BPP) organisent
@@ -29,34 +29,3 @@
         </p>
     </section>
 </template>
-
-<style lang="scss" scoped>
-    .home {
-        h1 {
-            margin: 0 0 10px;
-            line-height: normal;
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            text-align: center;
-            @media (min-width: 991px) {
-                margin: 0 0 15px;
-            }
-        }
-        h2 {
-            margin: 0 0 10px;
-            line-height: normal;
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            font-size: 20px;
-        }
-        p {
-            padding-top: 10px;
-            margin-bottom: 20px;
-            color: #333;
-            font-weight: 300;
-            @media (min-width: 991px) {
-                margin-bottom: 25px;
-            }
-        }
-    }
-</style>

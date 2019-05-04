@@ -1,5 +1,5 @@
 <template>
-    <section class="gronkowski">
+    <section>
         <h1>Collection Gronkowski</h1>
         <p>
             Par testament daté du 1er décembre 1947, Camille Gronkowski lègue à la Société Historique et Littéraire
@@ -16,7 +16,7 @@
         </p>
         <h2>Biographie</h2>
         <div class="portrait">
-            <img src="/camille_gronkowski.png" alt="Portrait de Camille Gronkowski" />
+            <img src="/camille_gronkowski.png" alt="Portrait de Camille Gronkowski"/>
         </div>
         <p>
             Camille Gronkowski est né à Paris en 1873. Il fait y ses études et devient docteur en droit.
@@ -44,40 +44,12 @@
 </template>
 
 <style lang="scss" scoped>
-    .gronkowski {
-        h1 {
-            margin: 0 0 10px;
-            line-height: normal;
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            text-align: center;
-            @media (min-width: 991px) {
-                margin: 0 0 15px;
-            }
-        }
-        h2 {
-            margin: 0 0 10px;
-            line-height: normal;
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            font-size: 20px;
-        }
-        p {
-            padding-top: 10px;
-            margin-bottom: 20px;
-            color: #333;
-            font-weight: 300;
-            @media (min-width: 991px) {
-                margin-bottom: 25px;
-            }
-        }
-        .portrait {
-            text-align: center;
-            padding-top: 10px;
-            margin-bottom: 10px;
-            @media (min-width: 991px) {
-                margin-bottom: 15px;
-            }
+    .portrait {
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        @media (min-width: 991px) {
+            margin-bottom: 15px;
         }
     }
 </style>

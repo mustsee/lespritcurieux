@@ -27,8 +27,6 @@
 </script>
 
 <style lang="scss">
-    @import url('https://fonts.googleapis.com/css?family=Merriweather');
-
     html {
         font-family: 'Merriweather', serif;
         font-size: 16px;
@@ -88,6 +86,33 @@
             @media (min-width: 991px) {
                 margin-top: 45px;
             }
+        }
+    }
+
+    h1 {
+        margin: 0 0 10px;
+        line-height: normal;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        @media (min-width: 991px) {
+            margin: 0 0 15px;
+        }
+    }
+    h2 {
+        margin: 0 0 10px;
+        line-height: normal;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    p {
+        padding-top: 10px;
+        margin-bottom: 20px;
+        color: #333;
+        font-weight: 300;
+        @media (min-width: 991px) {
+            margin-bottom: 25px;
         }
     }
 </style>

@@ -28,28 +28,27 @@
     }
     .title {
         padding-bottom: 20px;
-        cursor: pointer; // onClick, go to main page
+        cursor: pointer;
         h1 {
-            font-family: 'Lato', sans-serif;
+            line-height: 1.625;
             font-weight: 300;
             font-size: 20px;
             text-transform: uppercase;
-            text-align: center;
-            .blueTitle:hover {
-                color: dodgerblue;
-            }
+            margin: 0;
         }
     }
     .date {
         padding-top: 5px;
         h2 {
-            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            line-height: 1.625;
             font-size: 10px;
             color: #7e7e7e;
             letter-spacing: 3px;
             text-transform: uppercase;
             text-align: center;
             word-spacing: 0;
+            margin: 0;
         }
     }
     a {
