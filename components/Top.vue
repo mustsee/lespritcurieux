@@ -3,7 +3,8 @@
             <nuxt-link to="/">
                 <div class="title">
                     <h1>
-                        L'esprit curieux. Collectionner en Europe (de Vasari à nos jours)
+                        <span class="blue">L'esprit curieux.</span>
+                        Collectionner en Europe (de Vasari à nos jours)
                     </h1>
                 </div>
             </nuxt-link>
@@ -35,6 +36,9 @@
             font-size: 20px;
             text-transform: uppercase;
             margin: 0;
+            .blue {
+                color: dodgerblue;
+            }
         }
     }
     .date {
