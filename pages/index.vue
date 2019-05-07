@@ -1,5 +1,6 @@
 <template>
     <section>
+        <img width="100%" src="/victor_hugo.png" alt="Détail, yeux de Victor Hugo">
         <h1>Présentation du colloque</h1>
         <p>
             La Société Historique et Littéraire Polonaise (SHLP) et la Bibliothèque Polonaise de Paris (BPP) organisent
@@ -39,3 +40,12 @@
         }
     }
 </script>
+
+<style lang="scss" scoped>
+    img {
+        margin-bottom: 25px;
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+</style>
