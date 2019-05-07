@@ -8,6 +8,7 @@
                     </h1>
                 </div>
             </nuxt-link>
+        <img width="100%" src="/victor_hugo.png" alt="Détail, yeux de Victor Hugo">
         <div class="date">
             <h2>
                 Paris, 24 et 25 octobre 2019
@@ -58,5 +59,23 @@
     a {
         text-decoration: none;
         color: inherit;
+    }
+    img {
+        display: none;
+        @media (min-width: 768px) {
+            display: block;
+            width: 720px;
+            padding-bottom: 20px;
+        }
+        @media (min-width: 991px) {
+            display: block;
+            width: 617px;
+            padding-bottom: 20px;
+        }
+        @media (min-width: 1200px) {
+            display: block;
+            width: 663px;
+            padding-bottom: 20px;
+        }
     }
 </style>

@@ -39,12 +39,3 @@
         }
     }
 </script>
-
-<style lang="scss" scoped>
-    img {
-        margin-bottom: 25px;
-        @media (max-width: 768px) {
-            display: none;
-        }
-    }
-</style>
