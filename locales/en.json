@@ -2,7 +2,8 @@
     "navBar": {
         "home": "Home",
         "gronkowski": "Gronkowski",
-        "contact": "Contact"
+        "contact": "Contact",
+        "partners": "Partners"
     },
     "home": {
         "title": "Presentation of the symposium",

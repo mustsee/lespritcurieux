@@ -10,10 +10,13 @@
       <nuxt-link :to="$i18n.path('contact')">
         <div class="li">{{ $t('navBar.contact') }}</div>
       </nuxt-link>
+      <nuxt-link :to="$i18n.path('partners')">
+        <div class="li partners">{{ $t('navBar.partners') }}</div>
+      </nuxt-link>
       <div class="languages">
         <div v-if="!displayDropdown" class="li" @mouseover="displayDropdown = true">
           {{ $store.state.locale.toUpperCase() }}
-          <img src="/chevron_down.png" alt="Chevron down">
+          <img src="/chevron_down.png" alt="Chevron down" />
         </div>
         <div v-if="displayDropdown" @mouseleave="displayDropdown = false" class="dropdown">
           <div v-for="item in items" :key="item.lang" class="item">
@@ -98,6 +101,11 @@ export default {
       cursor: pointer;
       &:hover {
         color: #b49543;
+      }
+    }
+    .partners {
+      @media (max-width: 768px) {
+        display: none;
       }
     }
     .languages {

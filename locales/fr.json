@@ -2,7 +2,8 @@
     "navBar": {
         "home": "Accueil",
         "gronkowski": "Gronkowski",
-        "contact": "Contact"
+        "contact": "Contact",
+        "partners": "Partenaires"
     },
     "home": {
         "title": "Présentation du colloque",
