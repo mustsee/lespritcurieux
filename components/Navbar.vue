@@ -2,16 +2,16 @@
   <div class="navbar">
     <div class="menu">
       <nuxt-link :to="$i18n.path('')">
-        <div class="li">{{ $t('navBar.home') }}</div>
+        <div class="li">Accueil</div>
       </nuxt-link>
       <nuxt-link :to="$i18n.path('gronkowski')">
-        <div class="li">{{ $t('navBar.gronkowski') }}</div>
+        <div class="li">Gronkowski</div>
       </nuxt-link>
       <nuxt-link :to="$i18n.path('contact')">
-        <div class="li">{{ $t('navBar.contact') }}</div>
+        <div class="li">Contact</div>
       </nuxt-link>
       <nuxt-link :to="$i18n.path('partenaires')">
-        <div class="li partners">{{ $t('navBar.partners') }}</div>
+        <div class="li partners">Partenaires</div>
       </nuxt-link>
       <div class="languages">
         <div v-if="!displayDropdown" class="li" @mouseover="displayDropdown = true">
