@@ -1,5 +1,12 @@
 {
-    "accueil": {
-        "title": "Presentation of the colloque"
+    "top": {
+        "title": "L'esprit curieux.",
+        "subtitle": "Collectionner en Europe (de Vasari à nos jours)",
+        "date": "Paris, 24 et 25 octobre 2019"
+    },
+    "navBar": {
+        "home": "Home",
+        "gronkowski": "Gronkowski",
+        "contact": "Contact"
     }
 }

@@ -24,9 +24,10 @@
             Bottom,
         },
         head() {
+            const lang = this.$store.state.locale
             return {
                 htmlAttrs: {
-                    lang: 'fr',
+                    lang,
                 },
             }
         }

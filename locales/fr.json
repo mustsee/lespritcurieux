@@ -1,5 +1,70 @@
 {
-    "accueil": {
-        "title": "Présentation du colloque"
+    "top": {
+        "title": "L'esprit curieux.",
+        "subtitle": "Collectionner en Europe (de Vasari à nos jours)",
+        "date": "Paris, 24 et 25 octobre 2019"
+    },
+    "navBar": {
+        "home": "Accueil",
+        "gronkowski": "Gronkowski",
+        "contact": "Contact"
+    },
+    "bottom": {
+        "shlp": "Société Historique et Littéraire Polonaise",
+        "bpp": "Bibliothèque Polonaise de Paris"
+    },
+    "home": {
+        "title": "Présentation du colloque",
+        "presentation": "La Société Historique et Littéraire Polonaise (SHLP) et la Bibliothèque Polonaise de Paris (BPP) organisent un colloque international les 24 et 25 octobre 2O19 à Paris sur le thème de la collection.",
+        "firstSection": {
+            "title": "Objectifs",
+            "firstParagraph": "L'objectif du colloque \"L'esprit curieux. Collectionner en Europe (de Vasari à nos jours)\" est de réunir les représentants de trois pays (France, Italie et Pologne) pour s'interroger sur les liens entre la collection en tant que pratique et la construction des identités européennes.",
+            "secondParagraph": "Il s'agira d'alimenter un débat sur les enjeux des interactions entre collections privées et publiques, leurs conjectures économiques et culturelles, ainsi que sur les questions liées aux stratégies patrimoniales."
+        },
+        "secondSection": {
+            "title": "Évènement",
+            "firstParagraph": "Le colloque sera également une occasion unique de présenter la plus grande collection d'œuvres léguée à la Société Historique et Littéraire Polonaise par Camille Gronkowski (1873-1949), conservateur du Petit Palais et président de la SHLP de 1946 à 1949."
+        },
+        "thirdSection": {
+            "title": "Publications",
+            "firstParagraph": "A l'issue du colloque, nous publierons les actes et nous rendrons disponible les vidéos enregistrées des interventions et des débats sur un site dédié."
+        }
+    },
+    "gronkowski": {
+        "firstSection": {
+            "title": "Collection Gronkowski",
+            "firstParagraph": "Par testament daté du 1er décembre 1947, Camille Gronkowski lègue à la Société Historique et Littéraire Polonaise (SHLP) sa collection artistique.",
+            "secondParagraph": "Elle est composée de 108 tableaux de maîtres, d'une grande collection de livres précieux ainsi que de nombreux souvenirs historiques - tel qu'un coffret de  ou un buste de la Reine Marie Leszczynska.",
+            "thirdParagraph": "Une grande partie de cette collection sera présentée dans deux salles au deuxième étage de la Bibliothèque Polonaise."
+        },
+        "secondSection": {
+            "title": "Biographie",
+            "firstParagraph": "Camille Gronkowski est né à Paris en 1873. Il fait y ses études et devient docteur en droit. Il entre dans l'administration en 1902 et, huit ans plus tard, est attaché au Palais des Beaux-Arts.",
+            "secondParagraph": "Gronkowski devient ensuite conservateur du Petit Palais et président de la SHLP à partir de 1946 jusqu'à sa mort le 14 août 1949.",
+            "thirdParagraph": "Personnage d'une grande ouverture d'esprit, expert de Rembrandt, Murillo, et fin connaisseur de l'Histoire de l'art, il parvient à rassembler une collection d'oeuvres remarquable avec une prédilection pour les XVIIIème et XIXème siècles.",
+            "fourthParagraph": "Meubles, objets d'art, peintures à l'huile, dessins, aquarelles et objets exotiques emplissaient sont appartement et son bureau au Petit Palais.",
+            "fifthParagraph": "Parmi les oeuvres de sa collection, on compte des dessins de François Boucher, Charles Nicolas Cochin, François Granet, Jean-Baptiste Greuze, Paul Huet, Augustin Pajou, Pierre Wille, ainsi qu'un dessin à la plume réalisé par Eugène Delacroix."
+        }
+    },
+    "contact": {
+        "information": "Pour tout renseignement concernant le colloque :",
+        "tel": "Tél.",
+        "firstContact": {
+            "name": "Anna CZARNOCKA",
+            "title": "Responsable des collections artistiques",
+            "mail": "a.czarnocka@bplp.fr"
+        },
+        "secondContact": {
+            "name": "Agnieszka WIATRZYK",
+            "title": "Adjointe à la responsable des collections artistiques",
+            "mail": "awiatrzyk@yahoo.fr"
+        },
+        "getInTouch": "Pour entrer en contact avec la SHLP/BPP :",
+        "shlp": "Société Historique et Littéraire Polonaise / ",
+        "bpp": "Bibliothèque Polonaise de Paris ",
+        "shlp-bpp-shorthand": "SHLP/BPP",
+        "website": "Accéder au site web : ",
+        "map": "Vous pouvez nous trouver sur Google Maps en cliquant",
+        "here": "ici"
     }
 }

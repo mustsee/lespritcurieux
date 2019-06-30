@@ -1,32 +1,14 @@
 <template>
   <section>
-    <h1>{{ $t('accueil.title') }}</h1>
-    <p>
-      La Société Historique et Littéraire Polonaise (SHLP) et la Bibliothèque Polonaise de Paris (BPP) organisent
-      un colloque international les 24 et 25 octobre 2O19 à Paris sur le thème de la collection.
-    </p>
-    <h2>Objectifs</h2>
-    <p>
-      L'objectif du colloque "L'esprit curieux. Collectionner en Europe (de Vasari à nos jours)" est de réunir les
-      représentants de trois pays (France, Italie et Pologne) pour s'interroger sur
-      les liens entre la collection en tant que pratique et la construction des identités européennes.
-    </p>
-    <p>
-      Il s'agira d'alimenter un débat sur les enjeux des interactions entre collections privées et publiques,
-      leurs conjectures économiques et culturelles, ainsi que sur les questions liées aux stratégies
-      patrimoniales.
-    </p>
-    <h2>Évènement</h2>
-    <p>
-      Le colloque sera également une occasion unique de présenter la plus grande collection d'œuvres léguée à la
-      Société Historique et Littéraire Polonaise par Camille Gronkowski (1873-1949), conservateur du Petit Palais
-      et président de la SHLP de 1946 à 1949.
-    </p>
-    <h2>Publications</h2>
-    <p>
-      A l'issue du colloque, nous publierons les actes et nous rendrons disponible les vidéos enregistrées des
-      interventions et des débats sur un site dédié.
-    </p>
+    <h1>{{ $t('home.title') }}</h1>
+    <p>{{ $t('home.presentation') }}</p>
+    <h2>{{ $t('home.firstSection.title') }}</h2>
+    <p>{{ $t('home.firstSection.firstParagraph') }}</p>
+    <p>{{ $t('home.firstSection.secondParagraph') }}</p>
+    <h2>{{ $t('home.secondSection.title') }}</h2>
+    <p>{{ $t('home.secondSection.firstParagraph') }}</p>
+    <h2>{{ $t('home.thirdSection.title') }}</h2>
+    <p>{{ $t('home.thirdSection.firstParagraph') }}</p>
   </section>
 </template>
 
@@ -37,6 +19,6 @@ export default {
       title:
         "Colloque - L'esprit curieux - Collectionner en Europe (de Vasari à nos jours) - Paris, 24 et 25 octobre 2019"
     }
-  },
+  }
 }
 </script>

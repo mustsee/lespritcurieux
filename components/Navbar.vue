@@ -2,13 +2,13 @@
   <div class="navbar">
     <div class="menu">
       <nuxt-link :to="$i18n.path('')">
-        <div class="li">Accueil</div>
+        <div class="li">{{ $t('navBar.home') }}</div>
       </nuxt-link>
       <nuxt-link :to="$i18n.path('gronkowski')">
-        <div class="li">Gronkowski</div>
+        <div class="li">{{ $t('navBar.gronkowski') }}</div>
       </nuxt-link>
       <nuxt-link :to="$i18n.path('contact')">
-        <div class="li">Contact</div>
+        <div class="li">{{ $t('navBar.contact') }}</div>
       </nuxt-link>
       <div class="languages">
         <div v-if="!displayDropdown" class="li" @mouseover="displayDropdown = true">
