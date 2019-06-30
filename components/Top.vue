@@ -3,8 +3,8 @@
     <nuxt-link to="/">
       <div class="title">
         <h1>
-          <span class="blue">{{ $t('top.title') }}</span>
-          {{ $t('top.subtitle') }}
+          <span class="blue">L'esprit curieux.</span>
+          Collectionner en Europe (de Vasari à nos jours)
         </h1>
       </div>
     </nuxt-link>

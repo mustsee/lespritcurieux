@@ -1,12 +1,55 @@
 {
-    "top": {
-        "title": "L'esprit curieux.",
-        "subtitle": "Collectionner en Europe (de Vasari à nos jours)",
-        "date": "Paris, 24 et 25 octobre 2019"
-    },
     "navBar": {
         "home": "Home",
         "gronkowski": "Gronkowski",
         "contact": "Contact"
+    },
+    "home": {
+        "title": "Presentation of the symposium",
+        "presentation": "24th - 25th October 2019 the Polish Historical and Literary Society (SHLP) and the Polish Library in Paris (BPP) organize the international symposium on Art Collecting.",
+        "firstSection": {
+            "title": "Aims",
+            "firstParagraph": "The main aim of the symposium \"L'esprit curieux. Collectionner en Europe  (de Vasari à nos jours). L’esprit curieux. Art Collecting in Europe (from Giorgio Vasari until today)\" is to bring together representatives of three countries (France, Italy and Poland) and to look at dynamics between Art Collecting, its practices and the construction of European identity.",
+            "secondParagraph": "There will be debate on issues including: Interactions between private and public collections, their economic and cultural conjectures, as well as issues related to heritage strategies."
+        },
+        "secondSection": {
+            "title": "Event",
+            "firstParagraph": "The symposium will also be a unique opportunity to present the largest collection of works bequeathed to the Polish Historical and Literary Society by Camille Gronkowski (1873-1949), curator of the Petit Palais and president of the SHLP from 1946 to 1949."
+        },
+        "thirdSection": {
+            "title": "Publications",
+            "firstParagraph": "At the end of the conference, we will publish the conference paper and post recorded videos of the symposium’s contributions and debates, to be made available on a dedicated website."
+        }
+    },
+    "gronkowski": {
+        "firstSection": {
+            "title": "Collection of Gronkowski",
+            "firstParagraph": "In his will dated 1st December 1947, Camille Gronkowski bequeaths his Art Collection to the Historical and Literary Society of Poland (SHLP).",
+            "secondParagraph": "This collection is composed of 108 master paintings, many precious books and historical memorabilia – including a Talleyrand box set or a bust of Queen Marie Leszczynska.",
+            "thirdParagraph": "The main part of this collection will be presented in two rooms on the second floor of the Polish Library."
+        },
+        "secondSection": {
+            "title": "Biographie",
+            "firstParagraph": "Camille Gronkowski was born in Paris in 1873. He studied there and became a doctor of law. He joined the administration in 1902 and eight years later was attaché of the Palais des Beaux-Arts.",
+            "secondParagraph": "Later, Gronkowski went on to become curator of the Petit Palais and president of the SHLP from 1946 until his death, the 14th August 1949.",
+            "thirdParagraph": "Highly open-minded, an expert of Rembrandt and Murillo, a connoisseur and Art Historian, he is the founder of a remarkable collection of works with a predilection for the eighteenth and nineteenth century Art.",
+            "fourthParagraph": "Furniture, art objects, oil paintings, drawings, watercolors and other exotic objects filled his apartment and office at the Petit Palais.",
+            "fifthParagraph": "Among the works in his collection are drawings by François Boucher, Charles Nicolas Cochin, François Granet, Jean-Baptiste Greuze, Paul Huet, Augustin Pajou and Pierre Wille, as well as sketches by Eugène Delacroix."
+        }
+    },
+    "contact": {
+        "information": "For information about the conference : ",
+        "tel": "Tel.",
+        "firstContact": {
+            "title": "Curator of art collection in Polish Library"
+        },
+        "secondContact": {
+            "title": "assistant of art collection curator in Polish Library"
+        },
+        "getInTouch": "To contact SHLP / BPP : ",
+        "shlp-bpp-shorthand": "SHLP/BPP",
+        "website": "Go to the website : ",
+        "map": "You can find us on Google Maps by clicking",
+        "here": "here"
     }
 }

@@ -2,32 +2,32 @@
   <section>
     <h2>{{ $t('contact.information') }}</h2>
     <p>
-      <span>{{ $t('contact.firstContact.name') }}</span>
+      <span>Anna CZARNOCKA</span>
       <br />
       {{ $t('contact.firstContact.title') }}
       <br />
-      {{ $t('contact.firstContact.mail') }}
+      a.czarnocka@bplp.fr
       <br />
       {{ $t('contact.tel') }} +33 1 55 42 83 85
     </p>
     <p>
-      <span>{{ $t('contact.secondContact.name') }}</span>
+      <span>Agnieszka WIATRZYK</span>
       <br />
       {{ $t('contact.secondContact.title') }}
       <br />
-      {{ $t('contact.secondContact.mail') }}
+      awiatrzyk@yahoo.fr
     </p>
     <h2>{{ $t('contact.getInTouch') }}</h2>
     <p>
-      {{ $t('contact.shlp') }}
+      Société Historique et Littéraire Polonaise / 
       <br />
-      {{ $t('contact.bpp') }}
+      Bibliothèque Polonaise de Paris 
       <br />6, quai d'Orléans
       <br />75004 Paris
     </p>
     <p>{{ $t('contact.tel') }} +33 1 55 42 91 97</p>
     <p>
-      Accéder au site web :
+      {{ $t('contact.website') }}
       <a
         target="_blank"
         rel="noopener noreferrer"

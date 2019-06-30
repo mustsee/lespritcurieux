@@ -1,17 +1,8 @@
 {
-    "top": {
-        "title": "L'esprit curieux.",
-        "subtitle": "Collectionner en Europe (de Vasari à nos jours)",
-        "date": "Paris, 24 et 25 octobre 2019"
-    },
     "navBar": {
         "home": "Accueil",
         "gronkowski": "Gronkowski",
         "contact": "Contact"
-    },
-    "bottom": {
-        "shlp": "Société Historique et Littéraire Polonaise",
-        "bpp": "Bibliothèque Polonaise de Paris"
     },
     "home": {
         "title": "Présentation du colloque",
@@ -50,18 +41,12 @@
         "information": "Pour tout renseignement concernant le colloque :",
         "tel": "Tél.",
         "firstContact": {
-            "name": "Anna CZARNOCKA",
-            "title": "Responsable des collections artistiques",
-            "mail": "a.czarnocka@bplp.fr"
+            "title": "Responsable des collections artistiques"
         },
         "secondContact": {
-            "name": "Agnieszka WIATRZYK",
-            "title": "Adjointe à la responsable des collections artistiques",
-            "mail": "awiatrzyk@yahoo.fr"
+            "title": "Adjointe à la responsable des collections artistiques"
         },
         "getInTouch": "Pour entrer en contact avec la SHLP/BPP :",
-        "shlp": "Société Historique et Littéraire Polonaise / ",
-        "bpp": "Bibliothèque Polonaise de Paris ",
         "shlp-bpp-shorthand": "SHLP/BPP",
         "website": "Accéder au site web : ",
         "map": "Vous pouvez nous trouver sur Google Maps en cliquant",

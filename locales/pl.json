@@ -1,12 +1,55 @@
 {
-    "top": {
-        "title": "L'esprit curieux.",
-        "subtitle": "Collectionner en Europe (de Vasari à nos jours)",
-        "date": "Paris, 24 et 25 octobre 2019"
-    },
     "navBar": {
-        "home": "Pl",
+        "home": "Home",
         "gronkowski": "Gronkowski",
-        "contact": "Contact"
+        "contact": "Kontakt"
+    },
+    "home": {
+        "title": "Prezentacja konferencji",
+        "presentation": "24 oraz 25 października 2019 Towarzystwo Historyczno-Literackie (THL) i Biblioteka Polska w Paryżu (BPP) organizują we współpracy z Polską Akademią Nauk międzynarodową konferencję na temat kolekcjonerstwa europejskiego.",
+        "firstSection": {
+            "title": "Cele",
+            "firstParagraph": "Głównym celem konferencji \"L'esprit curieux. Kolekcjonerstwo w Europie (od Vasariego do dziś)\" jest zjednoczenie przedstawicieli trzech krajów europejskich (Polski, Francji i Włoch) wokół problematyki związanej z kolekcją widzianą jako swoisty paradygmat procesu konstrukcji tożsamości europejskich.",
+            "secondParagraph": "Poruszane podczas konferencji tematy nie ograniczają się tylko do udostępnienia informacji na temat działalności historycznych postaci będących znanymi kolekcjonerami, jak np. wielcy książęta toskańscy, czy cesarzowa Józefina, dotyczą także szeroko pojętych struktur oraz strategii stanowiących nieodłączny element współczesnej polityki zarządzania dziedzictwem narodowym. Poprzez bliższe zapoznanie się ze społecznością kolekcjonerów, chcemy uwrażliwić opinię publiczną na rolę kolekcji jako więzi między historią i pamięcią europejską."
+        },
+        "secondSection": {
+            "title": "Wydarzenie",
+            "firstParagraph": "Konferencja będzie również unikalną okazją zaprezentowania największej kolekcji dzieł sztuki przekazanej Towarzystwu Historyczno-Literackiemu przez Kamila Gronkowskiego (1873-1949), kustosza Petit Palais oraz prezesa THL w latach 1946 a 1949."
+        },
+        "thirdSection": {
+            "title": "Publikacje",
+            "firstParagraph": "Zaprezentowane referaty zostaną zebrane i opublikowane w postaci akt konferencyjnych, a ich multimedialny zapis zostanie umieszczony w postaci tekstu oraz video na obecnej stronie internetowej, tak aby zapewnić wydarzeniu jak najszerszy odbiór."
+        }
+    },
+    "gronkowski": {
+        "firstSection": {
+            "title": "Kolekcja Gronkowskiego",
+            "firstParagraph": "Wraz z zapisem testamentu z dnia 1-ego grudnia 1947 roku Kamil Gronkowski przekazał Towarzystwu Historyczno-Literackiemu w Paryżu (THL) swoją kolekcję artystyczną.",
+            "secondParagraph": "Składa się na nią 108 obrazów, jak również kolekcja starodruków oraz pamiątek historycznych – jak na przyklad szkatułka Talleyranda czy popiersie królowej Marii Leszczyńskiej.",
+            "thirdParagraph": "Większość obiektów wchodzących w skład kolekcji będzie zaprezentowana w Bibliotece Polskiej w Paryżu, na drugim piętrze części muzealnej."
+        },
+        "secondSection": {
+            "title": "Biogram",
+            "firstParagraph": "Kamil Gronkowski urodził się w Paryżu w 1873. Tutaj studiuje prawo i otrzymuje dyplom doktorski. W 1902 roku staje się wysokim urzędnikiem państwowym Republiki Francuskiej, a osiem lat później zostaje oddelegowany jako attaché przy Pałacu Sztuk Pięknych.",
+            "secondParagraph": "Następnie Gronkowski zostaje mianowany kustoszem Petit Palais oraz prezesem THL-u od  1946 do śmierci, 14 sierpnia 1949.",
+            "thirdParagraph": "Postać o niezwykle szerokich horyzontach, historyk sztuki, znawca Rembrandta i Murilla, którego ciekawość i zamiłowanie związane ze sztuką odzwierciedla różnorodność obiektów zgromadzonych w jego kolekcji artystycznej wyraźnie naznaczonej predylekcją dla dzieł XVIIIego i XIXego wieku.",
+            "fourthParagraph": "Owa kolekcja, na którą składają się meble, rzemiosło artystyczne, obrazy olejne, rysunki, akwarele oraz obiekty egzotyczne, dekorowała jego biuro w Petit Palais.",
+            "fifthParagraph": "Wśrod najbardziej znanych autorów dzieł pochodzących z jego kolekcji artystycznej można wymienić rysunki : François Boucher, Charles Nicolas Cochin, François Granet, Jean-Baptiste Greuze, Paul Huet, Augustin Pajou, Pierre Wille, jak również szkice piórkowe Eugène Delacroix."
+        }
+    },
+    "contact": {
+        "information": "Kontakt do organizatorek wydarzenia : ",
+        "tel": "Tel.",
+        "firstContact": {
+            "title": "Kustosz kolekcji THL/BPP"
+        },
+        "secondContact": {
+            "title": "Asystentka kustosza kolekcji THL/BPP"
+        },
+        "getInTouch": "Kontakt z biurem THL/BPP :",
+        "shlp-bpp-shorthand": "THL/BPP",
+        "website": "Link do strony internetowej : ",
+        "map": "Mogą Państwo znaleźć nas na Google Maps klikając",
+        "here": "tu"
     }
 }

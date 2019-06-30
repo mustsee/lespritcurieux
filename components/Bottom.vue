@@ -7,7 +7,7 @@
                  alt="logo de la Société Historique et Littéraire Polonaise"
             >
             <div class="text">
-                {{ $t('bottom.shlp') }}<br>{{ $t('bottom.bpp') }}
+                Société Historique et Littéraire Polonaise<br>Bibliothèque Polonaise de Paris
             </div>
         </div>
     </div>
