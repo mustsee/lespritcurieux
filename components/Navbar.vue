@@ -10,7 +10,7 @@
       <nuxt-link :to="$i18n.path('contact')">
         <div class="li">{{ $t('navBar.contact') }}</div>
       </nuxt-link>
-      <nuxt-link :to="$i18n.path('partners')">
+      <nuxt-link :to="$i18n.path('partenaires')">
         <div class="li partners">{{ $t('navBar.partners') }}</div>
       </nuxt-link>
       <div class="languages">
