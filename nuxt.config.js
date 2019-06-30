@@ -41,6 +41,23 @@ export default {
     */
     modules: [],
 
+    generate: {
+        routes: [
+            '/',
+            '/pl',
+            '/en',
+            '/gronkowski',
+            '/pl/gronkowski',
+            '/en/gronkowski',
+            '/contact',
+            '/pl/contact',
+            '/en/contact',
+            '/partenaires',
+            '/pl/partenaires',
+            '/en/partenaires',
+        ]
+    },
+
     router: {
         middleware: 'i18n'
     },
