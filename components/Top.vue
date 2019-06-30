@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <nuxt-link to="/">
+    <nuxt-link :to="$i18n.path('')">
       <div class="title">
         <h1>
           <span class="blue">L'esprit curieux.</span>
