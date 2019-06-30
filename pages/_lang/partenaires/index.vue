@@ -1,6 +1,21 @@
 <template>
   <section>
-    <div>Page under construction</div>
+    <div class="image">
+      <img class="bigger" src="/UW.jpg" alt="Logo de l'Université de Varsovie" />
+    </div>
+    <div class="image">
+      <img class="bigger" src="/BUW.jpg" alt="Logo de la bibliothèque de l'Université de Varsovie" />
+    </div>
+    <div class="image">
+      <img src="/MANGGHA.jpg" alt="Logo of Manggha. Museum of Japanese Art and Technology" />
+    </div>
+    <div class="image">
+      <img src="/Université-de-Poitiers.jpg" alt="Logo de l'Université de Poitiers" />
+    </div>
+    <div class="image">
+      <img src="/inVisu.jpg" alt="Logo de inVisu" />
+    </div>
+    <div class="image"></div>
   </section>
 </template>
 
@@ -17,16 +32,23 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  div {
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 25px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .image {
+    width: 300px;
+    height: 200px;
+    margin: 0 2px 15px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 70%;
+      max-height: auto;
+    }
+    .bigger {
+      width: 90%;
+    }
   }
 }
 </style>
