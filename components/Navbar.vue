@@ -1,25 +1,25 @@
 <template>
   <div class="navbar">
     <div class="menu">
-      <nuxt-link to="/">
+      <nuxt-link :to="$i18n.path('')">
         <div class="li">Accueil</div>
       </nuxt-link>
-      <nuxt-link to="/gronkowski">
+      <nuxt-link :to="$i18n.path('gronkowski')">
         <div class="li">Gronkowski</div>
       </nuxt-link>
-      <nuxt-link to="/contact">
+      <nuxt-link :to="$i18n.path('contact')">
         <div class="li">Contact</div>
       </nuxt-link>
       <div class="languages">
         <div v-if="!displayDropdown" class="li" @mouseover="displayDropdown = true">
-          FR
+          {{ $store.state.locale.toUpperCase() }}
           <img src="/chevron_down.png" alt="Chevron down">
         </div>
         <div v-if="displayDropdown" @mouseleave="displayDropdown = false" class="dropdown">
           <div v-for="item in items" :key="item.lang" class="item">
-            <nuxt-link to="">
+            <a @click="onChangeLanguage(item)">
               <span>{{ item.lang }}</span>
-            </nuxt-link>
+            </a>
           </div>
         </div>
       </div>
@@ -34,14 +34,31 @@ export default {
       displayDropdown: false,
       items: [
         {
-          lang: 'fr',
-          to: '/'
+          lang: 'fr'
         },
         {
-          lang: 'pl',
-          to: '/pl'
+          lang: 'pl'
+        },
+        {
+          lang: 'en'
         }
       ]
+    }
+  },
+  methods: {
+    onChangeLanguage(item) {
+      const lang = this.$store.state.locale
+      if (lang === 'fr') {
+        this.$router.push({ path: `/${item.lang}${this.$route.fullPath}` })
+      } else if (item.lang === 'fr') {
+        this.$router.push({
+          path: `${this.$route.fullPath.replace(/^\/[^\/]+/, '')}`
+        })
+      } else {
+        this.$router.push({
+          path: `${this.$route.fullPath.replace(`${lang}`, `${item.lang}`)}`
+        })
+      }
     }
   }
 }
@@ -112,7 +129,7 @@ export default {
           right: 0;
         }
         position: absolute;
-        top: -39px;
+        top: -64px;
         right: 30px;
         background-color: #fff;
         .item {
@@ -122,8 +139,12 @@ export default {
           width: 48px;
           height: 48px;
           border: solid 1px #ebebeb;
+          border-radius: 50%;
           &:last-child {
             border-top: none;
+          }
+          &:first-child {
+            border-bottom: none;
           }
           a {
             width: 100%;
@@ -131,8 +152,11 @@ export default {
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: pointer;
+            user-select: none;
             &:hover {
               background-color: #fafafa;
+              border-radius: 50%;
             }
           }
         }
