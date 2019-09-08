@@ -46,5 +46,8 @@
         "website": "Link do strony internetowej : ",
         "map": "Mogą Państwo znaleźć nas na Google Maps klikając",
         "here": "tu"
+    },
+    "partners": {
+        "senat": "Projekt współfinansowany w ramach sprawowania opieki Senatu Rzeczypospolitej Polskiej nad Polonią i Polakami za granicą w 2019 roku"
     }
 }
