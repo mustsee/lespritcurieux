@@ -18,8 +18,11 @@
     <div class="image">
       <img src="/partners/inVisu.jpg" alt="Logo de inVisu" />
     </div>
+    <div class="image text">
+      <span class="title">Euploos</span>Gabinetto dei Disegni e delle Stampe delle Gallerie degli Uffizi
+    </div>
     <div class="image">
-      <img src="/partners/le-gallerie-degli-uffizi.svg" alt="Logo de la gallerie des Offices" />
+      <img class="over-size" src="/partners/logo-centro-studi-famiglia-caponi.jpg" alt="Logo centro studi famiglia Caponi">
     </div>
     <div class="image">
       <img class="bigger" src="/partners/UW.jpg" alt="Logo de l'Université de Varsovie" />
@@ -48,6 +51,13 @@
     <div class="image">
       <img src="/partners/université-de-bologne.jpg" alt="Logo de l'Université de Bologne">
     </div>   
+    <div class="image">
+      <img class="smaller" src="/partners/ccp.jpg" alt="Logo du centre de civilisation polonaise">
+    </div>  
+    <div class="image">
+      <img src="/partners/lettres-sorbonne-universite.png" alt="Logo de Lettres Sorbonne Université">
+    </div>    
+    <div class="image"></div>
   </section>
 </template>
 
@@ -86,6 +96,19 @@ section {
     }
     .extra-large {
       width: 100%;
+    }
+    .over-size {
+      width: 115%;
+    }
+  }
+  .text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    .title {
+      padding: 10px;
+      font-size: larger;
+      font-weight: 600;
     }
   }
 }
