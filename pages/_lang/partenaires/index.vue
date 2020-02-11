@@ -31,6 +31,9 @@
       <img class="bigger" src="/partners/BUW.jpg" alt="Logo de la bibliothèque de l'Université de Varsovie" />
     </div>
     <div class="image">
+      <img class="bigger" src="/partners/IIC.jpg" alt="Logo de l'institut italien de la culture'" />
+    </div>
+    <div class="image">
       <img class="bigger" src="/partners/dida.jpg" alt="Logo de la bibliothèque de l'Université de Florence, département d'architecture" />
     </div>
     <div class="image">
