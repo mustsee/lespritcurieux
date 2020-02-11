@@ -60,7 +60,6 @@
     <div class="image">
       <img src="/partners/lettres-sorbonne-universite.png" alt="Logo de Lettres Sorbonne Université">
     </div>    
-    <div class="image"></div>
   </section>
 </template>
 
