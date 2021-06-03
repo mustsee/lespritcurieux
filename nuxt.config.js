@@ -1,7 +1,8 @@
 import pkg from './package'
 
 export default {
-    mode: 'universal',
+    //mode: 'universal',
+    mode: 'spa',
     /*
     ** Headers of the page
     */
@@ -59,7 +60,8 @@ export default {
     },
 
     router: {
-        middleware: 'i18n'
+        middleware: 'i18n',
+        base: '/lespritcurieux/'
     },
 
     /*
