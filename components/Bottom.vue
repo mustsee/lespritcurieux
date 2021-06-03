@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="separationLine"></div>
         <div class="logo">
-            <img src="/SHLP_BPP_logo.jpg"
+            <img src="/lespritcurieux/SHLP_BPP_logo.jpg"
                  height="50px"
                  alt="logo de la Société Historique et Littéraire Polonaise"
             >

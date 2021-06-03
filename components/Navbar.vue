@@ -16,7 +16,7 @@
       <div class="languages">
         <div v-if="!displayDropdown" class="li" @mouseover="displayDropdown = true">
           {{ $store.state.locale.toUpperCase() }}
-          <img src="/chevron_down.png" alt="Chevron down" />
+          <img src="/lespritcurieux/chevron_down.png" alt="Chevron down" />
         </div>
         <div v-if="displayDropdown" @mouseleave="displayDropdown = false" class="dropdown">
           <div v-for="item in items" :key="item.lang" class="item">

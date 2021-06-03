@@ -8,7 +8,7 @@
         </h1>
       </div>
     </nuxt-link>
-    <img width="100%" src="/victor_hugo.png" alt="Détail, yeux de Victor Hugo">
+    <img width="100%" src="/lespritcurieux/victor_hugo.png" alt="Détail, yeux de Victor Hugo">
     <div class="date">
       <h2>Paris, 24 et 25 octobre 2019</h2>
     </div>

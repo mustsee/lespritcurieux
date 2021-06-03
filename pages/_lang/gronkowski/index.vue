@@ -6,7 +6,7 @@
     <p>{{ $t('gronkowski.firstSection.thirdParagraph') }}</p>
     <h2>{{ $t('gronkowski.secondSection.title') }}</h2>
     <div class="portrait">
-      <img src="/camille_gronkowski.png" alt="Portrait de Camille Gronkowski" />
+      <img src="/lespritcurieux/camille_gronkowski.png" alt="Portrait de Camille Gronkowski" />
     </div>
     <p>{{ $t('gronkowski.secondSection.firstParagraph') }}</p>
     <p>{{ $t('gronkowski.secondSection.secondParagraph') }}</p>
